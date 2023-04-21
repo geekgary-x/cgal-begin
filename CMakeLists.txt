@@ -41,6 +41,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${${PROJECT_NAME}_ROOT_DIR}/out/bin)
 # vendors dir
 set(VENDORS_DIR ${CMAKE_SOURCE_DIR}/src/Vendors)
 
+find_package(CGAL REQUIRED COMPONENTS Core)
 
 add_subdirectory(src)
 
